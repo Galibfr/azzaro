@@ -1,0 +1,149 @@
+* {
+	margin: 0%;
+	padding: 0%;
+	border: 0%;
+	font-size: 100%;
+}
+
+.container {
+	height: 100%;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	background: #efefef;
+}
+.image1 img {
+	width: 100%;
+}
+h1 {
+	font-size: 40pt;
+	font-weight: bold;
+}
+.titre {
+	color: #e024a8;
+}
+.tel {
+	background: url(../IMG/aide.png) no-repeat;
+	margin-left: 40%;
+	height: 30px;
+	margin-top: -0px;
+}
+
+.gauche {
+	float: left;
+	margin-left: 85%;
+	margin-top: -70px;
+	background-color: #67dcff;
+	color: rgb(255, 254, 254);
+}
+.milieu {
+	margin-left: 40%;
+	color: #67dcff;
+	font-size: 35px;
+	margin-top: -80px;
+	vertical-align: middle;
+}
+
+.right {
+	text-align: right;
+	width: 455px;
+	margin-left: 60%;
+	background-color: #67dcff;
+	margin-bottom: 2px;
+}
+/* *****nav*** */
+nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #67dcff;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #e024a8;
+}
+
+nav ul li {
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	height: 50px;
+}
+.paiement .presentation {
+	height: 50%;
+	float: left;
+}
+.services {
+	height: 50%;
+}
+
+/* ****section**** */
+.bas {
+	width: 1000px;
+	height: 150px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 225px;
+}
+.bon_plan {
+	width: 260px;
+	height: 150px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	box-shadow: 6px 6px 6px grey;
+	margin-left: -160px;
+	float: left;
+}
+.coup_de_coeur {
+	width: 260px;
+	height: 150px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	box-shadow: 6px 6px 6px grey;
+	margin-left: 40px;
+	float: left;
+}
+.plaisir {
+	width: 260px;
+	height: 150px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	box-shadow: 6px 6px 6px grey;
+	margin-left: 40px;
+	float: left;
+}
+.titre_bas {
+	display: inline-block;
+	width: 260px;
+	height: 25px;
+	font-weight: bold;
+	text-align: center;
+	background: url(../img/fond.png) repeat;
+	color: black;
+}
+
+/* footer*** */
+ul.menu_footer {
+	height: 35px;
+	margin: 0px;
+	background-color: #67dcff;
+	list-style: none;
+}
+ul.menu_footer li {
+	float: left;
+}
+ul.menu_footer li a {
+	font-size: 0.9em;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+}
